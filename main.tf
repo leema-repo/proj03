@@ -164,7 +164,7 @@ resource "aws_lb_target_group" "app_tg" {
     path                = "/"
     interval            = 5
     timeout             = 5
-    healthy_threshold   = 2
+    healthy_threshold   = 3
     unhealthy_threshold = 2
   }
 }
